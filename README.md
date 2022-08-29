@@ -8,7 +8,7 @@ There are two kinds of detector:
 * Exact detector: Will detect invaders that are a exact match of the specification (positive and negative space)
 * Shape detector: Will detect invaders by its positive space. Colliding invader detections will be given a lower accuracy and will be shown in dimmer color than the 100% accuracy.
 
-! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/invaders/radar`. To experiment with that code, run `bin/console` for an interactive prompt.
+
 
 ## Usage:
 (use `bundle exec` if gem is not installed: `bundle exec invaders-radar -r snapshot_example.txt`)
@@ -30,6 +30,8 @@ Use different files examples with different detection strategies and accuracy:
 
 
 ## Development
+In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/invaders/radar`. To experiment with that code, run `bin/console` for an interactive prompt.
+
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
 ### Runtime dependencies:
