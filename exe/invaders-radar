@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "invaders/radar/radar_cli"
+
+Invaders::Radar::RadarCLI.detect_invaders(ARGV)
